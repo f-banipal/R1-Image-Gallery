@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #55555599;
+}
+
+h1 {
+  margin: 10px;
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+}
+
+.pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pictures .picture {
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem
+}
+
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 20px solid #dddddd55;
+  outline: 10px solid linear-gradient(to right, #55555599 50%, #dddddd55);
+}
+
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: 10px solid linear-gradient(to right, #111 50%, #555);
+  border-radius: 50%;
+}
+
+
+.pictures .picture .imageContainer img:hover {
+  transform: rotateY(720deg);
+  transition: all 4s ease-in-out;
+  border: none;
+          
+          
+}
+
+.pictures .picture .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
+}
