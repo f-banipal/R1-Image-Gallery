@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/R1-Image-Gallery/static/css/main.933efa73.css",
+    "main.js": "/R1-Image-Gallery/static/js/main.7fdcb6b1.js",
+    "index.html": "/R1-Image-Gallery/index.html",
+    "main.933efa73.css.map": "/R1-Image-Gallery/static/css/main.933efa73.css.map",
+    "main.7fdcb6b1.js.map": "/R1-Image-Gallery/static/js/main.7fdcb6b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.933efa73.css",
+    "static/js/main.7fdcb6b1.js"
+  ]
+}
